@@ -1,18 +1,24 @@
+// DEPENDENCIES
 const express = require("express");
 
-const apiRouter = require("./routes/apiRoutes");
-const htmlRouter = require("./routes/htmlRoutes");
-
+// EXPRESS CONFIGURATION
+// Tells node that we are creating an "express" server
 const app = express();
 
+// Sets an initial port. 
 const PORT = process.env.PORT || 3000;
 
-app.use(express.urlencoded({extended: true}));
+// Sets up the Express app to handle data parsing
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'));
 
-app.use('/api', apiRouter);
-app.use('/', htmlRouter);
+// IMPORT ROUTERS
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
 
-app.listen(PORT, function(){
-    console.log("App listening to PORT: " + PORT);
+
+// LISTENER
+app.listen(PORT, function () {
+  console.log('Listening at PORT 3000');
 });
