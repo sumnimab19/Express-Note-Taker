@@ -30,11 +30,19 @@ AS A user, he/she wants to be able to write and save notes. They WANT to be able
 
 ## Screenshot 
 
+![Image 6-17-20 at 6 23 PM](https://user-images.githubusercontent.com/55207625/84967611-3c038480-b0c9-11ea-9962-6d33c7dba9cb.jpeg)
+
+![Image 6-17-20 at 6 25 PM](https://user-images.githubusercontent.com/55207625/84967620-432a9280-b0c9-11ea-8afb-93f0cc4188ba.jpeg)
+
+![Image 6-17-20 at 6 24 PM](https://user-images.githubusercontent.com/55207625/84967627-47ef4680-b0c9-11ea-9677-ad6de84db830.jpeg)
 
 
 
 
 ## Preview of Application
 
+![notegif](https://user-images.githubusercontent.com/55207625/84967790-b59b7280-b0c9-11ea-8ca3-080c41ceb9c9.gif)
 
+
+## Link to the published app
 
